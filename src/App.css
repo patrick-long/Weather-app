@@ -1,5 +1,10 @@
+:root {
+  --main-color: #e9b32a;
+  --secondary-color: #bbbbbb;
+}
+
 .App-header {
-  background-color: #cd9d25;
+  background-color: var(--main-color);
   min-height: 2.5rem;
   display: flex;
   justify-content: space-between;
@@ -16,4 +21,10 @@
 
 .App-header > a:hover {
   text-decoration: none;
+}
+
+h1 {
+  color: #ffc42e;
+  text-align: center;
+  font-size: 4rem;
 }
